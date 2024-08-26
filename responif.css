@@ -1,0 +1,65 @@
+@media only screen and (max-width:799px){
+    .navbar {
+      padding: 0 50px;
+    }
+  
+    /* RESPONSIF HOMEPAGE */
+    #home{
+      padding: 0 50px;
+      background-position: top 30% right 50%;
+    }
+
+    #brand img{
+      padding: 20px 40px;
+    }
+
+    /* BANNER HOME */
+    #banner{
+      height: 20vh;
+    } 
+    
+    /* RESPONSIF NAMA PRODUCT */
+    #product1 .header,
+    #blog-container .header{
+      padding: 0 20px;
+    }
+
+    /* RESPONSIF PRODUCT */
+    #product1 .pro-container{
+      justify-content: center;
+    }
+    #product1 .pro{
+      margin: 30px;
+    }
+
+    /* RESPONSIF BLOG */
+    .row {
+        padding: 0 20px;
+    }
+
+    /* RESPONSIF ABOUT */
+    #about-head,
+    #about-heads{
+      padding: 0 50px;
+    }
+    #feature{
+      justify-content: center;
+    }
+    #feature{
+      margin: 15px 15px;
+    }  
+
+    /* RESPONSIF CONTACT */
+    #form-details .people div {
+      padding-left: 50px;
+    }
+  }
+
+
+
+
+  @media only screen and (max-width: 477px) {
+    .navbar{
+      padding: 10px 50px;
+    }
+  }
